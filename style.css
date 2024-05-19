@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.hero {
+    background-color: #F55A5A;
+    display: flex;
+    flex-direction: row;
+    color: #FFFFFF;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    
+    
+}
+
+.hero-image{
+    width: 32px;
+    color: #FFFFFF;
+}
+
+.journal {
+    padding: 1.3em;
+    display: flex;
+    
+}
+
+.image {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.journal-text {
+    padding: 1.2em;
+    
+}
+
+.journal-location {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.location-name{
+    letter-spacing: 1.8px;
+    font-size: 16px;
+}
+
+.location-image {
+    width: 10px;
+    margin-right: 8px;
+}
+
+.location-map{
+    font-size: 14px;
+    color: #918E9B;
+}
+
+h3 {
+    font-size: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+.time {
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+
+.description{
+    font-size: 14px;
+    color: #2B283A;
+}
